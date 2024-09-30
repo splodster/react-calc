@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "./App.css";
 import ButtonGrid from "./components/ButtonGrid";
 import CalculatorContainer from "./components/CalculatorContainer";
 import Display from "./components/Display";
