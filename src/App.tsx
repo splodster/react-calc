@@ -2,6 +2,7 @@ import { useState } from "react";
 import ButtonGrid from "./components/ButtonGrid.tsx";
 import CalculatorContainer from "./components/CalculatorContainer.tsx";
 import Display from "./components/Display.tsx";
+import "./App.css";
 
 function App() {
   const [input, setInput] = useState("0");

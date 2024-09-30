@@ -11,7 +11,7 @@ const CalculatorButton = ({ children: label, onClick }: Props) => {
       <Button
         borderRadius="20px"
         w="100%"
-        colorScheme="blue"
+        colorScheme="orange"
         onClick={() => onClick(label)}
       >
         {label}
