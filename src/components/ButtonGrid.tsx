@@ -1,5 +1,5 @@
 import { Center, Grid, GridItem } from "@chakra-ui/react";
-import CalculatorButton from "./CalculatorButton";
+import CalculatorButton from "./CalculatorButton.tsx";
 
 interface Props {
   onBtnClick: (value: string) => void;
